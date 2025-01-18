@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+
+}
+
+#shoppingList{
+    border-radius: .5rem;
+    box-shadow: 0 0 24px 8px rgba(0, 0, 0, 0.1);
+}
+
+#shoppingListItems {
+    list-style-type: none;
+}
+
+#shoppingListItems li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -1rem;
+    margin-right: 1rem;
+}
+.remove-item{
+    color:red;
+    font-size: .8rem;
+}
