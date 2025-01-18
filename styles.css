@@ -22,4 +22,5 @@
 .remove-item{
     color:red;
     font-size: .8rem;
+    cursor:pointer;
 }
